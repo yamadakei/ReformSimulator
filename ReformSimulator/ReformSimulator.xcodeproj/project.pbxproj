@@ -38,6 +38,7 @@
 		B2FF3A2616ABB4E50062C801 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF3A2416ABB4D30062C801 /* CoreMedia.framework */; };
 		B2FF3A2716ABB4E50062C801 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF3A2216ABB4CC0062C801 /* CoreVideo.framework */; };
 		B2FF3A2816ABB4E50062C801 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF3A2016ABB4C30062C801 /* AVFoundation.framework */; };
+		B2FF3A2B16ABBC3B0062C801 /* RSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF3A2A16ABBC3A0062C801 /* RSItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,8 +58,6 @@
 		B2FF39D616A91DF00062C801 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B2FF39E016A91E410062C801 /* RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
 		B2FF39E116A91E410062C801 /* RSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
-		B2FF39E316A91EB40062C801 /* RSItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSItem.h; sourceTree = "<group>"; };
-		B2FF39E416A91EB40062C801 /* RSItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSItem.m; sourceTree = "<group>"; };
 		B2FF39E516A91EDD0062C801 /* ReformSimulator.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReformSimulator.plist; sourceTree = "<group>"; };
 		B2FF39FC16ABB45C0062C801 /* V8HorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V8HorizontalPickerView.h; sourceTree = "<group>"; };
 		B2FF39FD16ABB45C0062C801 /* V8HorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V8HorizontalPickerView.m; sourceTree = "<group>"; };
@@ -81,6 +80,8 @@
 		B2FF3A2016ABB4C30062C801 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B2FF3A2216ABB4CC0062C801 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		B2FF3A2416ABB4D30062C801 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B2FF3A2916ABBC3A0062C801 /* RSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSItem.h; sourceTree = "<group>"; };
+		B2FF3A2A16ABBC3A0062C801 /* RSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,14 +136,14 @@
 			children = (
 				B2FF39FB16ABB45C0062C801 /* Libraries */,
 				B2FF3A0116ABB4680062C801 /* Images */,
-				B2FF39E316A91EB40062C801 /* RSItem.h */,
-				B2FF39E416A91EB40062C801 /* RSItem.m */,
 				B2FF39CC16A91DF00062C801 /* AppDelegate.h */,
 				B2FF39CD16A91DF00062C801 /* AppDelegate.m */,
 				B2FF39D516A91DF00062C801 /* MainStoryboard.storyboard */,
 				B2FF39C416A91DF00062C801 /* Supporting Files */,
 				B2FF39E016A91E410062C801 /* RSViewController.h */,
 				B2FF39E116A91E410062C801 /* RSViewController.m */,
+				B2FF3A2916ABBC3A0062C801 /* RSItem.h */,
+				B2FF3A2A16ABBC3A0062C801 /* RSItem.m */,
 			);
 			path = ReformSimulator;
 			sourceTree = "<group>";
@@ -280,6 +281,7 @@
 				B2FF39CE16A91DF00062C801 /* AppDelegate.m in Sources */,
 				B2FF39E216A91E410062C801 /* RSViewController.m in Sources */,
 				B2FF39FF16ABB45C0062C801 /* V8HorizontalPickerView.m in Sources */,
+				B2FF3A2B16ABBC3B0062C801 /* RSItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

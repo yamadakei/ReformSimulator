@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "V8HorizontalPickerView.h"
 
-@interface RSViewController : UIViewController
+@interface RSViewController : UIViewController<V8HorizontalPickerViewDelegate, V8HorizontalPickerViewDataSource>
+{
+    AVCaptureSession *session;
+    AVCaptureStillImageOutput *stillImageOutput;
+    UIImage *capturedImage;
+    UIImage *resultImage;
+}
+@property (nonatomic) UIImageView *previewImageView;
+@property (nonatomic) V8HorizontalPickerView *pickerView;
+@property (nonatomic) UIButton *nextButton;
+@property (nonatomic) UIButton *shutterButton;
+
 
 @end

@@ -2,7 +2,7 @@
 //  RSItem.h
 //  ReformSimulator
 //
-//  Created by 山田 慶 on 2013/01/17.
+//  Created by 山田 慶 on 2013/01/20.
 //  Copyright (c) 2013年 山田 慶. All rights reserved.
 //
 
@@ -14,5 +14,6 @@
 @property (nonatomic) NSString *image;
 @property (nonatomic) NSString *description;
 @property (nonatomic) NSString *logo;
+
 
 @end

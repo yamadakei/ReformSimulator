@@ -754,16 +754,6 @@
     self.transform = transform;
 }
 
-//added by yamada
-- (UIView *) getSelecedView:(NSInteger)index
-{
-    
-}
-
-- (NSInteger) getCurrentIndex
-{
-    
-}
 
 @end
 
